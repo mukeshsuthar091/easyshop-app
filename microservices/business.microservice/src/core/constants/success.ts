@@ -1,0 +1,20 @@
+// Success Message
+export const SuccessMessage = {
+    GET_PRODUCTS_SUCCEED: "Get Products successfully.",
+    GET_PRODUCT_SUCCEED: "Get Product successfully.",
+    GET_CATEGORY_SUCCEED: "Get all categories successfully.",
+    GET_SUB_CATEGORY_SUCCEED: "Get all subcategories successfully.",
+    GET_SINGLE_CATEGORY_SUCCEED: "Get category successfully.",
+    GET_SINGLE_SUB_CATEGORY_SUCCEED: "Get sub-category successfully.",
+    CREATE_CATEGORY_SUCCEED: "Category created successfully.",
+    CREATE_SUB_CATEGORY_SUCCEED: "Sub-Category created successfully.",
+    UPDATE_CATEGORY_SUCCEED: "Category updated successfully.",
+    UPDATE_SUB_CATEGORY_SUCCEED: "Sub-Category updated successfully.",
+    DELETE_CATEGORY_SUCCEED: "Category deleted successfully.",
+    DELETE_SUB_CATEGORY_SUCCEED: "Sub-Category deleted successfully.",
+    CREATE_PRODUCT_SUCCEED: "Product created successfully.",
+    UPDATE_PRODUCT_SUCCEED: "Product updated successfully.",
+    DELETE_PRODUCT_SUCCEED: "Product deleted successfully.",
+    FILE_UPLOAD_SUCCEED: "File uploaded successfully.",
+    CREATE_BANNER_SUCCEED: "Banner created successfully.",
+}
