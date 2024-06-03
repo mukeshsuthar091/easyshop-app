@@ -39,16 +39,6 @@ CREATE TABLE `sub_categories` (
   CONSTRAINT `sub_categories_ibfk_2` FOREIGN KEY (`categoryId`) REFERENCES `categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `sub_categories`
---
-
-LOCK TABLES `sub_categories` WRITE;
-/*!40000 ALTER TABLE `sub_categories` DISABLE KEYS */;
-INSERT INTO `sub_categories` VALUES (1,'Mobile Phones','https://res.cloudinary.com/dqoso7erl/image/upload/v1716275878/atoawqd2tszu3pfirrca.jpg','2024-05-21 07:17:58','2024-05-21 07:20:50',7,1),(2,'Fiction','https://res.cloudinary.com/dqoso7erl/image/upload/v1716276003/p6urjwjzoor97yvc5imd.jpg','2024-05-21 07:20:03','2024-05-21 07:20:03',7,2),(4,'Laptops','https://res.cloudinary.com/dqoso7erl/image/upload/v1716276584/qj9p1blxf0ypix9ttblu.jpg','2024-05-21 07:29:44','2024-05-21 07:30:20',7,1),(5,'Men Clothing','https://res.cloudinary.com/dqoso7erl/image/upload/v1716292108/ycsigbbyrn4emcxbutx4.jpg','2024-05-21 10:29:14','2024-05-21 11:48:28',7,4),(8,'Kitchen Appliances','https://res.cloudinary.com/dqoso7erl/image/upload/v1716293978/vuh268fxky8lysnoghdf.jpg','2024-05-21 12:19:38','2024-05-21 12:19:38',7,5),(11,'Non fiction','https://res.cloudinary.com/dqoso7erl/image/upload/v1716464136/q3u3pqijchzp4vecmnor.jpg','2024-05-23 11:20:11','2024-05-23 11:36:15',7,5);
-/*!40000 ALTER TABLE `sub_categories` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

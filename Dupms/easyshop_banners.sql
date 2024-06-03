@@ -35,14 +35,6 @@ CREATE TABLE `banners` (
   CONSTRAINT `banners_ibfk_1` FOREIGN KEY (`productId`) REFERENCES `products` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `banners`
---
-
-LOCK TABLES `banners` WRITE;
-/*!40000 ALTER TABLE `banners` DISABLE KEYS */;
-INSERT INTO `banners` VALUES (1,'https://res.cloudinary.com/dqoso7erl/image/upload/v1717136342/dvvwgymakiuc0afbtmhs.png','2024-05-31 06:28:40','2024-05-31 06:28:40',1),(2,'https://res.cloudinary.com/dqoso7erl/image/upload/v1717136342/dvvwgymakiuc0afbtmhs.png','2024-05-31 06:49:30','2024-05-31 06:49:30',2),(3,'https://res.cloudinary.com/dqoso7erl/image/upload/v1717136342/dvvwgymakiuc0afbtmhs.png','2024-05-31 06:49:31','2024-05-31 06:49:31',2);
 /*!40000 ALTER TABLE `banners` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

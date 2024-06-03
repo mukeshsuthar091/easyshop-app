@@ -47,16 +47,6 @@ CREATE TABLE `products` (
   CONSTRAINT `products_ibfk_3` FOREIGN KEY (`subCategoryId`) REFERENCES `sub_categories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=50 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `products`
---
-
-LOCK TABLES `products` WRITE;
-/*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'Color Short T-shirt ','This is a nice cloths','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',4,0,0,'2024-05-22 09:53:29','2024-05-30 12:38:53',7,4,5),(2,'Jeans Shirt','This Jeans shirt is very nice and the material is also good.','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',2,0,0,'2024-05-22 09:55:44','2024-05-30 12:33:17',7,4,5),(3,'Checks Shirt ','Elevate your wardrobe with our timeless Classic Checkered Shirt, a perfect blend of style, comfort, and versatility. ','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',0,0,0,'2024-05-22 10:35:52','2024-05-22 10:35:52',7,4,5),(9,'Jeans Shirt','Elevate your wardrobe with our timeless Classic Checkered Shirt, a perfect blend of style, comfort, and versatility. ','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',2,0,0,'2024-05-23 05:58:15','2024-05-30 12:38:53',7,4,5),(18,'Jeans Shirt','Elevate your wardrobe with our timeless Classic Checkered Shirt, a perfect blend of style, comfort, and versatility.','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',0,0,0,'2024-05-23 12:29:59','2024-05-23 12:29:59',7,4,5),(19,'Cuban Collar Shirt','The Cuban Collar shirt is a specific type of short-sleeved shirt with, of course, a Cuban-style open collar.','Made from 100% cotton, comfortable and breathable, perfect for casual wear.','Machine washable, available in various colors and sizes.',0,0,0,'2024-05-23 12:38:01','2024-05-25 15:31:54',7,4,5);
-/*!40000 ALTER TABLE `products` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

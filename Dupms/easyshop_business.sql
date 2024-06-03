@@ -45,16 +45,6 @@ CREATE TABLE `business` (
   CONSTRAINT `business_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `business`
---
-
-LOCK TABLES `business` WRITE;
-/*!40000 ALTER TABLE `business` DISABLE KEYS */;
-INSERT INTO `business` VALUES (1,3,'Cloths Style','https://res.cloudinary.com/dqoso7erl/image/upload/v1714629049/b0tiqisla1mvayoxsaix.jpg','Cloth','Men','Surat','Gujarat','India','A-404 house','https://res.cloudinary.com/dqoso7erl/image/upload/v1714629049/b0tiqisla1mvayoxsaix.jpg','123456789000',1,'2024-05-10 11:37:33','2024-05-10 11:37:33'),(2,7,'90\'s Cloths','https://res.cloudinary.com/dqoso7erl/image/upload/v1716197649/co4zy45nsoinvplspgrw.jpg','Cloths','Mens Cloth','Surat','Gujarat','India','A-105, Sky Heaven','https://res.cloudinary.com/dqoso7erl/image/upload/v1716197647/j6kwtmar3e6jefohqkiq.jpg','200150649487',NULL,'2024-05-17 10:15:07','2024-05-20 09:34:08'),(3,8,'Cloths Style','https://res.cloudinary.com/dqoso7erl/image/upload/v1715941316/obvchewk9kz1hyc6ldrn.png','Cloths','Women Cloth','Surat','Gujarat','India','A-105, Sky Heaven','https://res.cloudinary.com/dqoso7erl/image/upload/v1715941312/xuwrye1qvj5xrl45lwwa.png','123456789123',NULL,'2024-05-17 10:21:55','2024-05-17 10:21:55'),(4,11,'Cloths Style','https://res.cloudinary.com/dqoso7erl/image/upload/v1717146812/l08ezijdpa5ozvtcmlda.jpg','Cloths','Women Cloth','Surat','Gujarat','India','A-105, Sky Heaven','https://res.cloudinary.com/dqoso7erl/image/upload/v1717146744/qnvt1kkbumpucxeapwmi.jpg','123456789123',NULL,'2024-05-31 09:16:53','2024-05-31 09:16:53');
-/*!40000 ALTER TABLE `business` ENABLE KEYS */;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
